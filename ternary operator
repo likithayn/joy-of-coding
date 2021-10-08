@@ -1,0 +1,26 @@
+1.
+#include <stdio.h>
+
+int main()
+{
+    int a,x;
+    x=(a>18)?a:18;
+    printf("enter the age a of person\n");
+    scanf("%d",&a);
+    if (a>18)
+    {
+        printf("a is eligeble for voting\n");
+    }
+    else
+    {
+        printf("a is not eligeble for voting\n");
+        printf("the eligibility for  voting is 18 years");
+    }
+OUTPUT
+enter the age a of person
+21
+a is eligeble for voting
+enter the age a of person
+12
+a is not eligeble for voting
+the eligibility for  voting is 18 years 
