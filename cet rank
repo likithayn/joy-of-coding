@@ -3,7 +3,7 @@
 int main()
 {
     int rank;
-    printf("enter the rank a\n");
+    printf("enter the rank \n");
     scanf("%d",&rank);
     if(rank>22340)
     {
