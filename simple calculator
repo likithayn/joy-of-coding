@@ -1,12 +1,10 @@
-
-3.
 #include <stdio.h>
 #include <stdlib.h>
-void  main()
+int  main()
 {
     int op1,op2,res;
     char oper;
-    printf("enter the value of operator\n");
+    printf("enter the operator\n");
     scanf("%c",&oper);
     printf("enter the value of operands\n");
     scanf("%d%d",&op1,&op2);
@@ -32,41 +30,6 @@ void  main()
         exit (0);
     }
         printf("the result is = %d",res);
+        return (0);
 }
-
-Output:enter the value of operator 
-+
-Enter the value of operands
-9
-10
-The result is ¬= 19
-
-enter the value of operator 
-*
-Enter the value of operands
-5
-3
-The result is =15
-
-
-enter the value of operator 
-/
-Enter the value of operands
-9
-0
-divide by zero error
-
-enter the value of operator 
-/
-Enter the value of operands
-8
-2
-The result is = 4
-
-enter the value of operator 
-#
-Enter the value of operands
-9
-10
-Not a valid operator
 
